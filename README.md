@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    
     <script>
         tailwind.config = {
             theme: {
@@ -55,7 +54,6 @@
     </style>
 </head>
 <body class="h-full flex flex-col font-sans text-slate-800 antialiased bg-slate-100">
-
     <!-- Top Emergency / Helpline Banner -->
     <div class="bg-ir-red text-white text-xs font-semibold py-1 px-4 text-center flex items-center justify-between shadow-inner">
         <div class="flex items-center space-x-2 container mx-auto justify-between">
@@ -64,7 +62,6 @@
             <span class="text-xs bg-white/20 px-2 py-0.5 rounded text-white">24x7 Assistance</span>
         </div>
     </div>
-
     <!-- Main Navigation Bar -->
     <header class="bg-ir-navy text-white sticky top-0 z-30 shadow-lg border-b-4 border-ir-gold">
         <div class="container mx-auto px-4 py-3 flex flex-wrap items-center justify-between gap-4">
@@ -81,7 +78,6 @@
                     <p class="text-xs text-slate-300 mt-1">Indian Railways Centralized Retrieval System</p>
                 </div>
             </div>
-
             <!-- Global Quick Search Bar -->
             <div class="flex-1 max-w-md mx-2">
                 <div class="relative">
@@ -93,7 +89,6 @@
                     </button>
                 </div>
             </div>
-
             <!-- RPF Emergency Quick Badge -->
             <div class="hidden lg:flex items-center space-x-3 text-xs bg-slate-800/80 p-2 rounded-lg border border-slate-700">
                 <div class="w-8 h-8 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center font-bold">
@@ -107,7 +102,6 @@
                 </div>
             </div>
         </div>
-
         <!-- Navigation Tabs -->
         <nav class="bg-ir-navylight/60 border-t border-slate-700/60 px-4">
             <div class="container mx-auto flex space-x-1 overflow-x-auto custom-scrollbar text-sm font-medium">
@@ -132,10 +126,8 @@
             </div>
         </nav>
     </header>
-
     <!-- Main Dynamic Content Area -->
     <main class="flex-1 container mx-auto px-4 py-6">
-
         <!-- ================= SECTION 1: SEARCH & BROWSE FOUND ITEMS ================= -->
         <section id="search-tab" class="tab-content">
             <!-- Hero Stats & Welcome Banner -->
@@ -164,7 +156,6 @@
                     </div>
                 </div>
             </div>
-
             <!-- Filters Bar -->
             <div class="bg-white rounded-xl p-4 shadow-sm border border-slate-200 mb-6">
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-3">
@@ -214,12 +205,10 @@
                     </div>
                 </div>
             </div>
-
             <!-- Found Items Cards Grid -->
             <div id="foundItemsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
                 <!-- Dynamically populated by JS -->
             </div>
-
             <!-- Empty State Container -->
             <div id="noFoundResults" class="hidden bg-white rounded-xl p-10 text-center border border-slate-200 my-6">
                 <i class="fa-solid fa-box-open text-4xl text-slate-300 mb-3"></i>
@@ -230,7 +219,6 @@
                 </button>
             </div>
         </section>
-
         <!-- ================= SECTION 2: REPORT LOST ITEM FORM ================= -->
         <section id="report-tab" class="tab-content hidden">
             <div class="max-w-3xl mx-auto bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
